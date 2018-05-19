@@ -1,0 +1,19 @@
+{
+  "name": "artours",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kenny Chancafe",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve": "live-server",
+    "sass:compile": "node-sass  sass/main.scss css/style.css",
+    "sass:watch": "node-sass  sass/main.scss css/style.css --watch"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
